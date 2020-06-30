@@ -2,11 +2,7 @@
 import tkinter as tk
 from tkinter import filedialog as fd 
 from tkinter import *
-import numpy as np
 import pandas as pd
-from scipy.stats import stats
-import seaborn as sns
-import matplotlib.pyplot as plt
 
 class import_csv_data():
     def __init__(self):
@@ -36,4 +32,4 @@ bt.grid(row=4,column=0,padx=100)
 ct=Button(root, text='Close',command=root.destroy,bg="green",fg="yellow")
 ct.grid(row=6,column=0,padx=100)
 
-tk.mainloop()
+tk.mainloop()   

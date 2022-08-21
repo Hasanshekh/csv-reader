@@ -1,4 +1,5 @@
 ######################CSV_Reader##########################
+import os
 import tkinter as tk
 from tkinter import filedialog as fd 
 from tkinter import *

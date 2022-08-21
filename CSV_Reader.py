@@ -34,4 +34,4 @@ ct=Button(root, text='Close',command=root.destroy,bg="green",fg="yellow")
 ct.grid(row=6,column=0,padx=100)
 
 tk.mainloop()   
-...
+..
